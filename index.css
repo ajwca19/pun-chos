@@ -1,0 +1,23 @@
+body {
+    background-color:#B0C4DE;
+}
+.logo {
+    width:80px;
+    float: right;
+    margin-left:10px;
+}
+body {
+    font-family: Verdana;
+}    
+ h1 {
+     
+    font-size: 180%;
+    color:#8B8378;
+}
+ span {
+     font-family: Comic Sans MS;
+     color: red;
+ }
+ .math {
+   width:50%;
+ }
