@@ -1,6 +1,4 @@
-body {
-    background-color:#B0C4DE;
-}
+
 .logo {
     width:80px;
    float: right;
@@ -18,3 +16,23 @@ body {
 hr {
     border-color:blue;
 }
+
+.puns {
+  color:#D45F05;
+  font-size:12px;
+}
+
+.sci {
+  color:#0564C8;
+  font-size:12px;
+}
+
+body {
+  background-image: url(light_wool.png);
+}
+
+.nacontainer {
+  width: 50px;
+  background-color:#E5F6D7;
+}
+
