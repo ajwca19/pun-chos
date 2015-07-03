@@ -41,3 +41,7 @@ tr:hover {
 .active {
     font-weight:bold;
 }
+
+nav a:hover {
+  color:lime;
+}
