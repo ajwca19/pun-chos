@@ -36,3 +36,16 @@ body {
   background-color:#E5F6D7;
 }
 
+.containerp {
+  width:960px;
+  margin:0 auto;
+}
+
+nav a {
+  color: gray;
+  text-decoration: none;
+}
+
+.active {
+  font-weight:bold;
+}

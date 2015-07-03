@@ -14,34 +14,28 @@ body {
     font-size: 180%;
     color:#8B8378;
 }
- span {
-     font-family: Comic Sans MS;
-     color: red;
- }
- .math {
-   width:50%;
- }
- 
- hr {
-   border-color:blue;
- }
- 
- .quote {
-  border:5px solid teal;
-}
 
 .container {
   width:960px;
   margin:0px auto;
 }
 
-#snakes {
-  float:right;
+table {
+    border-collapse:collapse;
+    border: 5px solid black;
+}
+
+tr {
+    border: 5px solid black;
 }
 
 nav a{
     color: gray;
     text-decoration: none;
+}
+
+tr:hover {
+    background-color:#EEEEEE;
 }
 
 .active {
