@@ -64,4 +64,13 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
+    width: 350px;
+  height: 30px;
+  text-align: center;
+}
+
+iframe {
+    height: 200px;
+    float: left;
+    clear: left;
 }
