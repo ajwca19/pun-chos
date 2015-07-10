@@ -19,8 +19,8 @@ body {
      color: red;
  }
  .math {
-   width:50%;
-   border: 1px solid #AFAFAF;
+   width:49%;
+   border: 2px solid #AFAFAF;
    margin: 0.5px;
  }
  
@@ -71,6 +71,7 @@ nav {
   width: 350px;
   height: 30px;
   text-align: center;
+  border: 2px solid lime;
 }
 
 body {

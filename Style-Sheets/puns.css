@@ -17,14 +17,9 @@ hr {
     border-color:blue;
 }
 
-.puns {
+.words p{
+  font-size:12px;
   color:#D45F05;
-  font-size:12px;
-}
-
-.sci {
-  color:#0564C8;
-  font-size:12px;
 }
 
 body {
@@ -34,6 +29,10 @@ body {
 .nacontainer {
   width: 50px;
   background-color:#E5F6D7;
+}
+
+.sci {
+  color:#0564C8;
 }
 
 .containerp {
@@ -71,4 +70,5 @@ nav {
   width: 350px;
   height: 30px;
   text-align: center;
+  border: 2px solid lime;
 }
