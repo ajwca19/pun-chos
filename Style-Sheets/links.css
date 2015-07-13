@@ -1,18 +1,20 @@
 body {
   background-image: url(light_wool.png);
 }
+
 .logo {
-    width:80px;
-    float: right;
-    margin-left:10px;
+  width:80px;
+  float: right;
+  margin-left:10px;
 }
+
 body {
-    font-family: Verdana;
-}    
+  font-family: Verdana;
+} 
+
  h1 {
-     
-    font-size: 180%;
-    color:#8B8378;
+  font-size: 180%;
+  color:#8B8378;
 }
 
 .container {
@@ -21,36 +23,35 @@ body {
 }
 
 table {
-    border-collapse:collapse;
-    border: 5px solid black;
+  border-collapse:collapse;
+  border: 5px solid black;
 }
 
 tr {
-    border: 5px solid black;
+  border: 5px solid black;
 }
 
-nav a{
-    color: gray;
-    text-decoration: none;
-    margin: 0 10px;
-    
+nav a {
+  color: gray;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 tr:hover {
-    background-color:#EEEEEE;
+  background-color:#EEEEEE;
 }
 
 .active {
-    font-weight:bold;
-    font-size: 18px;
+  font-weight:bold;
+  font-size: 18px;
 }
 
-nav a:hover{
+nav a:hover {
   color:lime;
 }
 
 hr {
-    border-color:blue;
+  border-color:blue;
 }
 
 h2 {
@@ -65,21 +66,34 @@ nav {
   position: fixed;
   top: 0;
   right: 0;
-    width: 350px;
+  width: 350px;
   height: 30px;
   text-align: center;
   border: 2px solid lime;
+  border-radius: 10px;
 }
 
 
 .vids article {
-    height: 360px;
-    width: 640px;
-    border: 3px solid #AFAFAF;
-    margin: 20px auto;
-    border-bottom-color: #999;
+  height: 360px;
+  width: 640px;
+  border: 3px solid #AFAFAF;
+  margin: 20px auto;
+  border-bottom-color: #999;
+  overflow: hidden;
 }
 
 table {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 736) {
+  nav {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .container {
     margin: 0 auto;
+    width: 100%;
+  }
 }
