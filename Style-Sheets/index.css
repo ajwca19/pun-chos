@@ -1,5 +1,5 @@
 body {
-  background-image: url(light_wool.png);
+  background-image: url(../Images/light_wool.png);
 }
 
 .logo {
@@ -83,7 +83,7 @@ body {
   margin: 5px;
 }
 
-@media screen and (max-width: 736) {
+@media screen and (max-width: 400px) {
   nav {
     width: 100%;
     border-radius: 0px;
@@ -92,4 +92,11 @@ body {
     margin: 0 auto;
     width: 100%;
   }
+  .math {
+    width: 47.5%;
+  }
+}
+
+#that {
+  clear: left;
 }
