@@ -11,6 +11,7 @@ body {
 h1 {
   font-size: 180%;
   color:#8B8378;
+  margin-top: 35px;
 }
 
 hr {
@@ -32,6 +33,8 @@ body {
 .nacontainer {
   width: 50px;
   background-color:#E5F6D7;
+  position: relative;
+  left: 60px;
 }
 
 .sci {
@@ -82,8 +85,19 @@ nav {
     width: 100%;
     border-radius: 0px;
   }
-  .container {
+  .containerp {
     margin: 0 auto;
     width: 100%;
   }
+  h2 {
+    width: 100%;
+  }
+  h1 {
+    margin-top: 35px;
+  }
+}
+
+div > a {
+  font-size: 16px;
+  color: #0564C8;
 }
